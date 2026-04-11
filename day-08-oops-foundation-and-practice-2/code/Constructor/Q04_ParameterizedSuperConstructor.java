@@ -2,7 +2,8 @@
 
 // super should be the first statement in a child constructor to call the parent constructor. Parent constructor will be run first, followed by child constructor.
 
-// If we dont explicity mention super keyword, by default java first executes the parent constructor.
+// super() must be explicitly called when the parent class does not have a no-argument constructor.
+// Java only inserts super() automatically if a default constructor exists.
 
 // Output:
 // Animal constructor called

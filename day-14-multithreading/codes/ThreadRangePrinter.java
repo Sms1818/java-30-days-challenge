@@ -43,7 +43,7 @@ class NumberTask implements Runnable{
    }
 }
 
-public class MultiThreadProblem1{
+public class ThreadRangePrinter{
     public static void main(String[] args) {
         Thread t1=new Thread(new NumberTask(1,5), "Thread-1");
         Thread t2=new Thread(new NumberTask(6,10), "Thread-2");

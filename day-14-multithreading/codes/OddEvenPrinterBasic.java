@@ -49,7 +49,7 @@ class OddEvenNumberTask implements Runnable{
     }
 }
 
-public class MultiThreadProblem2 {
+public class OddEvenPrinterBasic {
     public static void main(String[] args) {
         Thread t1=new Thread(new OddEvenNumberTask(10, true), "Thread-1");
         Thread t2=new Thread(new OddEvenNumberTask(10, false), "Thread-2");
